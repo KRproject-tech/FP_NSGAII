@@ -1,5 +1,5 @@
 # FP_NSGAII
-NSGA-II with Floating point representation (MATLAB R2007b - ).
+NSGA-II with Floating Point representation (MATLAB R2007b - ).
 
 ## Usage
 
