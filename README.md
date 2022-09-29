@@ -42,6 +42,8 @@ $$
 
 [2] C. Su, A genetic algorithm approach employing floating point representation for economic dispatch of electric power, in: The International Congress on Modelling and Simulation 1997, Vol. 204, 1997, pp. 1444–1449.
 
-[3] Reducing the Power Consumption of a Shape Memory Alloy Wire Actuator Drive by Numerical Analysis and Experiment, IEEE/ASME Transactions on Mechatronics, Vol. 23, No. 4 (2018).
+[3] Veldhuizen, D.A.V. and Lamont, G.B., Multiobjective evolutionary algorithm test suites, Proceedings of the 1999 ACM symposium on Applied computing, February 1999.
+
+[4] Reducing the Power Consumption of a Shape Memory Alloy Wire Actuator Drive by Numerical Analysis and Experiment, IEEE/ASME Transactions on Mechatronics, Vol. 23, No. 4 (2018).
 
 https://doi.org/10.1109/TMECH.2018.2836352
