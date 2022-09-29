@@ -1,5 +1,5 @@
 # FP_NSGAII
-Multi-objective optimization analysis by NSGA-II with Floating Point representation (MATLAB R2007b - ).
+Multi-objective optimization analysis by NSGA-II [1] with Floating Point representation [2] (MATLAB R2007b - ).
 
 ## Usage
 
@@ -24,7 +24,7 @@ Execute the code in "exe_func_restart.m".
 
 ![untitled](https://user-images.githubusercontent.com/114337358/192941614-b21db790-023d-4ea5-b123-1c01fb182c7b.png)
 
-__MOP3__ bench problem
+__MOP3__ bench problem [3]
 
 $$ 
 \left.
