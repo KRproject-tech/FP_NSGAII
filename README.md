@@ -26,6 +26,14 @@ Execute the code in "exe_func_restart.m".
 
 __MOP3__ bench problem
 
+$$ 
+\begin{eqnarray}
+&& f_1(x_1,x_2,x_3) = 0.5(x_1^2 + x_2^2) + \sin(x_1^2 + x_2^2) \\
+&& f_2(x_1,x_2,x_3) = \frac{1}{8}(3 x_1^2 - 2 x_2^2 + 4)^2 + \frac{1}{27}(x_1^2 - x_2^2 + 1)^2 + 15 \\
+&& f_3(x_1,x_2,x_3) = \frac{1}{x_1^2 + x_2^2 + 1} - 1.1 \exp( -x_1^2 - x_2^2 )
+\end{eqnarray}
+$$
+
 ## References
 
 [1] K. Deb, A. Pratap, S. Agarwal, T. Meyarivan, A fast and elitist multiobjective genetic algorithm: NSGA-II, IEEE Transactions on Evolutionary Computation 6 (2) (2002) 182–197. doi:10.1109/4235.996017.
