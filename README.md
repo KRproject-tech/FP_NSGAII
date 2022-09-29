@@ -7,10 +7,24 @@ __[Step 1] Set the evaluation function__
 
 Edit the code for evaluation functions in "./NSGA_2_functions/evaluation_func.m".
 
-__[Step 2] Start optimization__
+__[Step 2] Set the parameters for optimization__ 
+
+Edit the code for parameters in "./save/param_NSGA.m".
+
+__[Step 3] Start optimization__
 
 Execute the code in "exe.m".
 
+__[Step 4] Restart optimization__
+
+Execute the code in "exe_func_restart.m".
+
+
+## Image
+
+![untitled](https://user-images.githubusercontent.com/114337358/192941614-b21db790-023d-4ea5-b123-1c01fb182c7b.png)
+
+__MOP3__ bench problem
 
 ## References
 
