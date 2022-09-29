@@ -26,6 +26,12 @@ Execute the code in "exe_func_restart.m".
 
 __MOP3__ bench problem [3]
 
+$$
+\min_{x \in \mathbb{R}^2} f_1, f_2, f_3, 
+$$
+
+where,
+
 $$ 
 \left.
 \begin{eqnarray}
@@ -33,7 +39,7 @@ $$
 && f_2(x_1,x_2) = \frac{1}{8}(3 x_1^2 - 2 x_2^2 + 4)^2 + \frac{1}{27}(x_1^2 - x_2^2 + 1)^2 + 15 \\
 && f_3(x_1,x_2) = \frac{1}{x_1^2 + x_2^2 + 1} - 1.1 \exp( -x_1^2 - x_2^2 )
 \end{eqnarray}
-\right)
+\right).
 $$
 
 ## References
