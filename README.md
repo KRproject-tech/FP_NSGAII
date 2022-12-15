@@ -1,5 +1,5 @@
 # FP_NSGAII
-Multi-objective optimization analysis by NSGA-II [1] with Floating Point representation [2] (MATLAB R2007b - ).
+Multi-objective optimization analysis by NSGA-II [^1] with Floating Point representation [^2] (MATLAB R2007b - ).
 
 ## Usage
 
@@ -24,7 +24,7 @@ Execute the code in "exe_func_restart.m".
 
 ![untitled](https://user-images.githubusercontent.com/114337358/192941614-b21db790-023d-4ea5-b123-1c01fb182c7b.png)
 
-__MOP3__ bench problem [3]
+__MOP3__ bench problem [^3]
 
 $$
 \min_{x \in \mathbb{R}^2} f_1, f_2, f_3, 
@@ -42,14 +42,12 @@ $$
 \right).
 $$
 
-## References
+### References
+[^1]: K. Deb, A. Pratap, S. Agarwal, T. Meyarivan, A fast and elitist multiobjective genetic algorithm: NSGA-II, IEEE Transactions on Evolutionary Computation 6 (2) (2002) 182–197. doi:10.1109/4235.996017.
 
-[1] K. Deb, A. Pratap, S. Agarwal, T. Meyarivan, A fast and elitist multiobjective genetic algorithm: NSGA-II, IEEE Transactions on Evolutionary Computation 6 (2) (2002) 182–197. doi:10.1109/4235.996017.
+[^2]: C. Su, A genetic algorithm approach employing floating point representation for economic dispatch of electric power, in: The International Congress on Modelling and Simulation 1997, Vol. 204, 1997, pp. 1444–1449.
 
-[2] C. Su, A genetic algorithm approach employing floating point representation for economic dispatch of electric power, in: The International Congress on Modelling and Simulation 1997, Vol. 204, 1997, pp. 1444–1449.
+[^3]: Veldhuizen, D.A.V. and Lamont, G.B., Multiobjective evolutionary algorithm test suites, Proceedings of the 1999 ACM symposium on Applied computing, February 1999.
 
-[3] Veldhuizen, D.A.V. and Lamont, G.B., Multiobjective evolutionary algorithm test suites, Proceedings of the 1999 ACM symposium on Applied computing, February 1999.
-
-[4] Reducing the Power Consumption of a Shape Memory Alloy Wire Actuator Drive by Numerical Analysis and Experiment, IEEE/ASME Transactions on Mechatronics, Vol. 23, No. 4 (2018).
-
+[^4]: Reducing the Power Consumption of a Shape Memory Alloy Wire Actuator Drive by Numerical Analysis and Experiment, IEEE/ASME Transactions on Mechatronics, Vol. 23, No. 4 (2018).  
 https://doi.org/10.1109/TMECH.2018.2836352
