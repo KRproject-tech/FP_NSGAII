@@ -21,6 +21,11 @@ __[Step 4] Restart optimization__
 
 Execute the code in "exe_func_restart.m".
 
+## Optimal results
+
+Optimal solutions are in `h_pop_vec(pop_rank{1},:)`.
+
+Pareto-front is plotted by `plot3(f_vec(pop_rank{1},1),f_vec(pop_rank{1},2),f_vec(pop_rank{1},3),'ro')`
 
 ## Image
 
