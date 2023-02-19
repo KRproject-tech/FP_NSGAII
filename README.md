@@ -1,5 +1,5 @@
-# FP_NSGAII
-Multi-objective optimization analysis by Non-dominated Sorting Genetic Algorithm (NSGA-II) [^1] with Floating Point representation [^2][^4] (MATLAB R2007b - ).
+# <p align=center>FP_NSGAII</p>
+__Multi-objective optimization analysis by Non-dominated Sorting Genetic Algorithm (NSGA-II) [^1] with Floating Point representation [^2][^4] (MATLAB R2007b - ).__
 
 ## Usage
 
