@@ -17,6 +17,18 @@
 
 __Multi-objective optimization analysis by Non-dominated Sorting Genetic Algorithm (NSGA-II) [^1] with Floating Point representation [^2][^4] (MATLAB R2007b - ).__
 
+    
+## Directory
+<pre>
+├─Bench_mark
+│  └─進化計算パラメータ
+│      └─html
+├─NSGA_2_functions
+└─save
+</pre>
+    
+    
+    
 ## Usage
 
 __[Step 1] Set the evaluation function__ 
