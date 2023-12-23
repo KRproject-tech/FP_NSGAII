@@ -53,7 +53,7 @@ __[Step 3] Start optimization__
 
 Push the “exe” button or execute the code in "./cores/exe.m", and wait until the finish of the analysis.
 
-__[Step 4] Restart optimization__
+__[Step 4] Restart optimization (if solutions do not converge at [Step 3])__
 
 Execute the code in "./cores/exe_func_restart.m".
 
