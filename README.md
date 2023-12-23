@@ -37,19 +37,19 @@ __Multi-objective optimization analysis by Non-dominated Sorting Genetic Algorit
 
 __[Step 1] Set the evaluation function__ 
 
-Edit the code for evaluation functions in "./NSGA_2_functions/evaluation_func.m".
+Edit the code for evaluation functions in "./cores/functions/NSGA_2_functions/evaluation_func.m".
 
 __[Step 2] Set the parameters for optimization__ 
 
-Edit the code for parameters in "./save/param_NSGA.m".
+Edit the code for parameters in "./save/param_setting.m".
 
 __[Step 3] Start optimization__
 
-Execute the code in "exe.m".
+Execute the code in "./cores/exe.m".
 
 __[Step 4] Restart optimization__
 
-Execute the code in "exe_func_restart.m".
+Execute the code in "./cores/exe_func_restart.m".
 
 ## Optimal results
 
