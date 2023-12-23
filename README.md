@@ -43,13 +43,36 @@ __[Step 2] Set the parameters for optimization__
 
 Edit the code for parameters in "./save/param_setting.m".
 
+## Analysis procedure
+
+__[Step 1] Start GUI form__
+
+Open the “GUI.fig” from MATLAB.
+
+![image](https://github.com/KRproject-tech/FreeSurface_Vortex_Sheet_Model/assets/114337358/1ec9b2fd-6ca4-4a68-bffa-2ccf86901921)
+
+
+__[Step 2] Pre-setting__
+
+Push the "Parameters" button and edit parameters.
+
 __[Step 3] Start optimization__
 
-Execute the code in "./cores/exe.m".
+Push the “exe” button or execute the code in "./cores/exe.m", and wait until the finish of the analysis.
 
 __[Step 4] Restart optimization__
 
 Execute the code in "./cores/exe_func_restart.m".
+
+__[Step 5] Plot results__
+
+Push the “plot” button.
+    
+__[Step 6] View plotted results__
+
+Results (figures and movie) plotted by [Step 4] are in "./save" directory.
+
+
 
 ## Optimal results
 
