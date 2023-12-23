@@ -46,7 +46,8 @@ Open the “GUI.fig” from MATLAB.
 __[Step 2] Pre-setting__
 
 Edit the code for evaluation functions in "./cores/functions/NSGA_2_functions/evaluation_func.m".
-Push the "Parameters" button and edit parameters, or edit the code for parameters in "./save/param_setting.m".
+
+Next, push the "Parameters" button and edit parameters, or edit the code for parameters in "./save/param_setting.m".
 
 __[Step 3] Start optimization__
 
