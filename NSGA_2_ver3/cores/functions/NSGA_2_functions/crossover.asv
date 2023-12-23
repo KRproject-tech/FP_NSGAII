@@ -1,0 +1,19 @@
+function qt_out = crossover(qt, pop_vec, CROSSOVER_RATE)
+%% Œğ³
+
+% ƒ‰ƒ“ƒ_ƒ€‚É•À‚Ñ‘Ö‚¦
+Q_t_NUM = length(qt(:,1));
+ind_rand_qt = randperm(Q_t_NUM);
+qt = qt(ind_rand_qt, :);
+
+% Œğ³Šm—¦‚ÉŠî‚Ã‚¢‚Ä‘I‘ğ
+hold_qt = qt(2*uint8(CROSSOVER_RATE*Q_t_NUM/2)+1:end,:); % Œğ³‚µ‚È‚¢ŒÂ‘Ì
+qt = qt(1:2*uint8(CROSSOVER_RATE*Q_t_NUM/2),:); % Œğ³‚·‚éŒÂ‘Ì
+New_Q_t_NUM = length(qt(:,1));;
+
+% GA with floating point ‚Å‚ÌŒğ³
+lmd = rand(,1)
+pop_vec(qt(1:2:end-1,1),:) = lmd.*pop_vec(qt(1:2:end-1,1),:) + (1 - lmd).*pop_vec(qt(2:2:end,1),:);
+pop_vec(qt(2:2:end,1),:) = (1 - lmd).*pop_vec(qt(1:2:end-1,1),:) + lmd.*pop_vec(qt(2:2:end,1),:);
+
+qt_out = qt ;

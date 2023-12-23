@@ -1,0 +1,74 @@
+clc
+clear all
+close all hidden
+
+%% add paths
+add_pathes;
+
+%% delete
+delete( '*.asv')
+
+
+
+
+%% load   
+load( [ './save/pop_data.mat'])
+
+
+%% plot
+
+
+i_ax = 1;
+
+h_fig(1) = figure(1);
+h_ax(i_ax) = axes( 'Parent', h_fig(1));
+
+
+jj_vec = [];
+h_f_elite_vec = [];
+for jj = 1:length( h_f_vec)       
+
+    f_vec = h_f_vec{jj};  
+
+
+    idx_f_vec = h_p;
+
+    f_elite_vec = f_vec(idx_f_vec,:);
+
+    jj_vec = [ jj_vec; jj*ones(size( f_elite_vec(:,1)))];
+    h_f_elite_vec = [ h_f_elite_vec; f_elite_vec];
+
+end
+
+
+scatter3( jj_vec, h_f_elite_vec(:,1), h_f_elite_vec(:,2), 35, jj_vec, 'filled', 'Parent', h_ax(i_ax))
+h_col = colorbar( h_ax(i_ax));
+ylabel( h_ax(i_ax), '{\itJ}_1 [m/s]', 'FontName', 'Times New Roman', 'FontSize', 20)
+zlabel( h_ax(i_ax), '{\itJ}_2 [rad/s]', 'FontName', 'Times New Roman', 'FontSize', 20)
+ylim( h_ax(i_ax), [ -Inf 0])
+box( h_ax(i_ax), 'on')
+view( h_ax(i_ax), [ 1 0 0])
+
+xlabel( h_col, 'step', 'FontName', 'Times New Roman', 'FontSize', 20)
+
+set( [ h_ax h_col], 'FontName', 'Times New Roman')
+       
+
+
+
+%% save
+
+
+for ii = 1:length( dir_name)
+    
+    set( h_fig(ii), 'PaperPositionMode', 'auto')
+    fig_pos = get( h_fig(ii), 'PaperPosition');
+    set( h_fig(ii), 'Papersize', [fig_pos(3) fig_pos(4)]);
+    
+    saveas( h_fig(ii), [ './fig/Paret_', dir_name{ii}, '.pdf']) 
+end
+
+%% Finish
+warndlg( 'Finish!!')
+
+

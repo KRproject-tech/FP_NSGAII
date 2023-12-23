@@ -1,0 +1,12 @@
+function pt = generate_Pt(pop_rank, P_t_NUM)
+%% V‚½‚È•êW’c‚ğì¬
+
+pt = [];
+i=1;
+while 
+    
+    pt = [pt pop_rank{i}];
+    pt_flag = (length(pt) < P_t_NUM);
+    
+    i = i+1;
+end
