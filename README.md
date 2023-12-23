@@ -20,11 +20,15 @@ __Multi-objective optimization analysis by Non-dominated Sorting Genetic Algorit
     
 ## Directory
 <pre>
-├─Bench_mark
-│  └─進化計算パラメータ
-│      └─html
-├─NSGA_2_functions
-└─save
+└─NSGA_2_ver3
+    ├─Bench_mark
+    │  └─進化計算パラメータ
+    │      └─html
+    ├─cores
+    │  └─functions
+    │      └─NSGA_2_functions
+    └─save
+        └─fig
 </pre>
     
     
