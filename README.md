@@ -35,15 +35,6 @@ __Multi-objective optimization analysis by Non-dominated Sorting Genetic Algorit
     
 ## Usage
 
-__[Step 1] Set the evaluation function__ 
-
-Edit the code for evaluation functions in "./cores/functions/NSGA_2_functions/evaluation_func.m".
-
-__[Step 2] Set the parameters for optimization__ 
-
-Edit the code for parameters in "./save/param_setting.m".
-
-## Analysis procedure
 
 __[Step 1] Start GUI form__
 
@@ -54,7 +45,8 @@ Open the “GUI.fig” from MATLAB.
 
 __[Step 2] Pre-setting__
 
-Push the "Parameters" button and edit parameters.
+Edit the code for evaluation functions in "./cores/functions/NSGA_2_functions/evaluation_func.m".
+Push the "Parameters" button and edit parameters, or edit the code for parameters in "./save/param_setting.m".
 
 __[Step 3] Start optimization__
 
