@@ -30,7 +30,26 @@ __Multi-objective optimization analysis by Non-dominated Sorting Genetic Algorit
     └─save
         └─fig
 </pre>
-    
+
+## Publications
+
+If you use this work in an academic context, please cite the following publication(s):
+
+* Reducing the Power Consumption of a Shape Memory Alloy Wire Actuator Drive by Numerical Analysis and Experiment, IEEE/ASME Transactions on Mechatronics, Vol. 23, No. 4 (2018).  
+https://doi.org/10.1109/TMECH.2018.2836352
+
+````
+@ARTICLE{8358981,
+  author={Yamano, Akio and Shintani, Atsuhiko and Ito, Tomohiro and Nakagawa, Chihiro},
+  journal={IEEE/ASME Transactions on Mechatronics}, 
+  title={Reducing the Power Consumption of a Shape Memory Alloy Wire Actuator Drive by Numerical Analysis and Experiment}, 
+  year={2018},
+  volume={23},
+  number={4},
+  pages={1854-1865},
+  doi={10.1109/TMECH.2018.2836352}
+}
+````
     
     
 ## Usage
