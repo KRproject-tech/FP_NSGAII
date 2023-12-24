@@ -31,6 +31,7 @@ __Multi-objective optimization analysis by Non-dominated Sorting Genetic Algorit
         └─fig
 </pre>
 
+<!---
 ## Publications
 
 If you use this work in an academic context, please cite the following publication(s):
@@ -50,7 +51,7 @@ https://doi.org/10.1109/TMECH.2018.2836352
   doi={10.1109/TMECH.2018.2836352}
 }
 ````
-    
+-->    
     
 ## Usage
 
