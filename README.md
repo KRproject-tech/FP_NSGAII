@@ -93,7 +93,7 @@ Optimal solutions are in `h_pop_vec{end}(pop_rank{1},:)`.
 
 Pareto-front is plotted by `plot3(f_vec(pop_rank{1},1),f_vec(pop_rank{1},2),f_vec(pop_rank{1},3),'ro')`
 
-## Image
+## Gallery
 
 ![untitled](https://user-images.githubusercontent.com/114337358/192941614-b21db790-023d-4ea5-b123-1c01fb182c7b.png)
 
