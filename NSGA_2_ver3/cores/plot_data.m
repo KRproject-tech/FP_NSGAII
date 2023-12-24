@@ -41,7 +41,7 @@ end
 i_ax = 1;
 
 h_fig(1) = figure(1);
-set( h_fig(1))
+set( h_fig(1), 'Position', [ 100 100 600 500])
 h_ax(i_ax) = axes( 'Parent', h_fig(1));
 
 
@@ -50,9 +50,9 @@ xlabel( h_ax(i_ax), '{\itf}_1', 'FontName', 'Times New Roman', 'FontSize', 20)
 ylabel( h_ax(i_ax), '{\itf}_2', 'FontName', 'Times New Roman', 'FontSize', 20)
 zlabel( h_ax(i_ax), '{\itf}_3', 'FontName', 'Times New Roman', 'FontSize', 20)
 grid( h_ax(i_ax), 'on')
-xlim( h_ax(i_ax), [0 1])
-ylim( h_ax(i_ax), [-1 0])
-zlim( h_ax(i_ax), [-0.1 0.05 ])
+xlim( h_ax(i_ax), [ min( f_elite_vec(:,1)) max( f_elite_vec(:,1))])
+ylim( h_ax(i_ax), [ min( f_elite_vec(:,2)) max( f_elite_vec(:,2))])
+zlim( h_ax(i_ax), [ min( f_elite_vec(:,3)) max( f_elite_vec(:,3))])
 
 i_ax = i_ax + 1;
 
@@ -60,15 +60,15 @@ i_ax = i_ax + 1;
 %% convergence plot
 
 h_fig(2) = figure(2);
-set( h_fig(2))
+set( h_fig(2), 'Position', [ 700 100 600 500])
 h_ax(i_ax) = axes( 'Parent', h_fig(2));
 
 scatter3( jj_vec, h_f_elite_vec(:,1), h_f_elite_vec(:,2), 10*jj_vec/length( h_f_vec) + 25, jj_vec, 'filled', 'Marker', 'o', 'Parent', h_ax(i_ax))
 box( h_ax(i_ax), 'on')
 ylabel( h_ax(i_ax), '{\itf}_1', 'FontName', 'Times New Roman', 'FontSize', 20)
 zlabel( h_ax(i_ax), '{\itf}_2', 'FontName', 'Times New Roman', 'FontSize', 20)
-ylim( h_ax(i_ax), [ 0 1])
-zlim( h_ax(i_ax), [ -1 0])
+ylim( h_ax(i_ax), [ min( h_f_elite_vec(:,1)) max( h_f_elite_vec(:,1))])
+zlim( h_ax(i_ax), [ min( h_f_elite_vec(:,2)) max( h_f_elite_vec(:,2))])
 view( h_ax(i_ax), [ 1 0 0])
 colormap autumn
 
