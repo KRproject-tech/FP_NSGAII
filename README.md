@@ -95,7 +95,6 @@ Pareto-front is plotted by `plot3(f_vec(pop_rank{1},1),f_vec(pop_rank{1},2),f_ve
 
 ## Gallery
 
-![untitled](https://user-images.githubusercontent.com/114337358/192941614-b21db790-023d-4ea5-b123-1c01fb182c7b.png)
 
 __MOP3__ bench problem [^3]
 
@@ -114,6 +113,13 @@ $$
 \end{eqnarray}
 \right).
 $$
+
+![untitled](https://user-images.githubusercontent.com/114337358/192941614-b21db790-023d-4ea5-b123-1c01fb182c7b.png)
+
+
+
+
+
 
 ### References
 [^1]: K. Deb, A. Pratap, S. Agarwal, T. Meyarivan, A fast and elitist multiobjective genetic algorithm: NSGA-II, IEEE Transactions on Evolutionary Computation 6 (2) (2002) 182–197. doi:10.1109/4235.996017.
