@@ -245,6 +245,9 @@ $$
 \right).
 $$
 
+![image](https://github.com/user-attachments/assets/640095a8-088c-435e-a891-a189f515a132)
+
+
 ### References
 [^1]: K. Deb, A. Pratap, S. Agarwal, T. Meyarivan, A fast and elitist multiobjective genetic algorithm: NSGA-II, IEEE Transactions on Evolutionary Computation 6 (2) (2002) 182–197. doi:10.1109/4235.996017.
 
