@@ -116,7 +116,7 @@ $$
 
 ![untitled](https://user-images.githubusercontent.com/114337358/192941614-b21db790-023d-4ea5-b123-1c01fb182c7b.png)
 
-__ZDT3__ bench problem [^4]
+__ZDT3__ bench problem [^5]
 
 $$
 \min_{x \in \mathbb{R}^2} f_1, f_2, 
@@ -136,6 +136,7 @@ $$
 $$
 
 
+![GXatie2bwAQvkk0](https://github.com/user-attachments/assets/5fb7714f-f632-41bd-a15e-70a70f8a1bc9)
 
 
 ### References
@@ -147,3 +148,5 @@ $$
 
 [^4]: Reducing the Power Consumption of a Shape Memory Alloy Wire Actuator Drive by Numerical Analysis and Experiment, IEEE/ASME Transactions on Mechatronics, Vol. 23, No. 4 (2018).  
 https://doi.org/10.1109/TMECH.2018.2836352
+
+[^5]: Zitzler, E., Thiele, L., Laumanns, M., Fonseca, C., and Fonseca, da V., Performance assessment of multiobjective optimizers: an analysis and review, IEEE Transactions on Evolutionary Computation, Vol. 7, No. 2, pp. 117–132 (2003).
