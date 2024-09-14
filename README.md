@@ -140,8 +140,8 @@ The red solid line shows the analytical solution of the Pareto front for the ZDT
 $$ 
 \left.
 \begin{eqnarray}
-&& x_i = 0, \: i \in \{2, \ldots, N\} \\
-&& x_1 \in [0,1] \\
+&& x_i = 0, \ i \in \left\{2, \ldots, N\right\} \\
+&& x_1 \in [0, 1] \\
 \end{eqnarray}
 \right).
 $$
@@ -152,7 +152,7 @@ $$
 \left.
 \begin{eqnarray}
 && g(x_i) = 1 \\
-&& f_2(x_i) = g(x_i) h( f_1(x_i), g(x_i)) = 1 \cdot h( f_1(x_i), 1) = 1 - \sqrt{ f_1 } - f_1 \sin{ 10 \pi f_1 } \\
+&& f_2(x_i) = g(x_i) \cdot h( f_1(x_i), g(x_i)) = 1 \cdot h( f_1(x_i), 1) = 1 - \sqrt{ f_1 } - f_1 \sin{ 10 \pi f_1 } \\
 \end{eqnarray}
 \right).
 $$
