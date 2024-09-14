@@ -129,7 +129,7 @@ $$
 \begin{eqnarray}
 && f_1(x_i) = x_1 \\
 && f_2(x_i) = g(x_i) h( f_1(x_i), g(x_i)) \\
-&& g(x_i) := 1 + \frac{9}{N-1} \sum_{k=1}^N x_k \\
+&& g(x_i) := 1 + \frac{9}{N-1} \sum_{k=2}^N x_k \\
 && h(f_1, g) := 1 - \sqrt{ \frac{f_1}{g} } - \frac{f_1}{g} \sin{ 10 \pi f_1 } \\
 \end{eqnarray}
 \right).
@@ -140,7 +140,7 @@ The red solid line shows the analytical solution of the Pareto front for the ZDT
 $$ 
 \left.
 \begin{eqnarray}
-&& x_i = 0,  i \in \{2, \ldots, N \} \\
+&& x_i = 0,  i \in \\{2, \ldots, N \\} \\
 && x_1 \in [0, 1] \\
 \end{eqnarray}
 \right).
