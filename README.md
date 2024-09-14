@@ -122,7 +122,7 @@ $$
 \min_{x \in \mathbb{R}^2} f_1, f_2, 
 $$
 
-where, $x_i := 2^{-1} \left(\frac{2}{\pi} \tan^{-1}{ x^*_i} + 1\right)$ and
+where, $x_i := 2^{-1} \left(\frac{2}{\pi} \tan^{-1}{ x^*_i} + 1\right)$ and,
 
 $$ 
 \left.
@@ -135,6 +135,25 @@ $$
 \right).
 $$
 
+The red solid line shows the analytical solution of the Pareto front for the ZDT3 problem,
+
+$$ 
+\left.
+\begin{eqnarray}
+&& x_i = 0, \ i \in \{2, \ldots, N\} \\
+&& x_1 \in [0,1] \\
+\end{eqnarray}
+\right).
+$$
+Namely, 
+$$ 
+\left.
+\begin{eqnarray}
+&& g(x_i) = 1 \\
+&& f_2(x_i) = g(x_i) h( f_1(x_i), g(x_i)) = 1 \cdot h( f_1(x_i), 1) = 1 - \sqrt{ f_1 } - f_1 \sin{ 10 \pi f_1 } \\
+\end{eqnarray}
+\right).
+$$
 
 ![GXatie2bwAQvkk0](https://github.com/user-attachments/assets/5fb7714f-f632-41bd-a15e-70a70f8a1bc9)
 
