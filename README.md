@@ -122,7 +122,7 @@ $$
 \min_{x \in \mathbb{R}^N} f_1, f_2, 
 $$
 
-where, $x_i := 2^{-1} \left(\frac{2}{\pi} \tan^{-1}{ x^*_i} + 1\right)$ and,
+where, $x_i := 2^{-1} \left(\frac{2}{\pi} \tan^{-1}{ x^*_i} + 1\right), i \in \\{2, \ldots, N \\}, N=30 $ and,
 
 $$ 
 \left.
