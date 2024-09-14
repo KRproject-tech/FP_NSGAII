@@ -67,7 +67,7 @@ __[Step 2] Pre-setting__
 
 Edit the code for evaluation functions in "./cores/functions/NSGA_2_functions/evaluation_func.m".
 
-``
+````
 function f_vec = evaluation_func(pop_vec)
 %% 評価関数 (pop_vecの行が個体番号，列が個体パラメータ)
 
@@ -110,7 +110,7 @@ f_vec = [f_1(x_vec) ...
 % f_vec = [f_1(x_vec) ...
 %          f_2(x_vec) ...
 %          f_3(x_vec)];
-``
+````
 
 Next, push the "Parameters" button and edit parameters, or edit the code for parameters in "./save/param_setting.m".
 
