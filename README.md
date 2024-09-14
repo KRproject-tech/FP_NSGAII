@@ -116,7 +116,24 @@ $$
 
 ![untitled](https://user-images.githubusercontent.com/114337358/192941614-b21db790-023d-4ea5-b123-1c01fb182c7b.png)
 
+__ZDT3__ bench problem [^4]
 
+$$
+\min_{x \in \mathbb{R}^2} f_1, f_2, 
+$$
+
+where,
+
+$$ 
+\left.
+\begin{eqnarray}
+&& f_1(x_i) = x_1 \\
+&& f_2(x_i) = g(x_i) h( f_1(x_i), g(x_i)) \\
+&& g(x_i) := 1 + \frac{9}{N-1} \sum_{k=1}^N x_k \\
+&& h(f_1, g) := 1 - \sqrt{ \frac{f_1}{g} } - \frac{f_1}{g} \sin{ 10 \pi f_1 } \\
+\end{eqnarray}
+\right).
+$$
 
 
 
