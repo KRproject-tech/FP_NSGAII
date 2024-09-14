@@ -240,7 +240,7 @@ $$
 && f_2(x_i) = x_2 \\
 && f_3(x_i) = (1 + g(x_i)) h( f_1(x_i), f_2(x_i), g(x_i)) \\
 && g(x_i) := 1 + \frac{9}{N} \sum_{k=2}^N x_k \\
-&& h(f_1, g) := 3 - \sum_{k=1}^{2} \frac{f_k}{1 + g} (1 + \sin{ 3 \pi f_k }) \\
+&& h(f_1, f_2, g) := 3 - \sum_{k=1}^{2} \frac{f_k}{1 + g} (1 + \sin{ 3 \pi f_k }) \\
 \end{eqnarray}
 \right).
 $$
