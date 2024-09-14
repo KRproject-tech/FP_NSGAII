@@ -119,7 +119,7 @@ $$
 __ZDT3__ bench problem [^5]
 
 $$
-\min_{x \in \mathbb{R}^2} f_1, f_2, 
+\min_{x \in \mathbb{R}^N} f_1, f_2, 
 $$
 
 where, $x_i := 2^{-1} \left(\frac{2}{\pi} \tan^{-1}{ x^*_i} + 1\right)$ and,
