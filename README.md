@@ -114,6 +114,25 @@ f_vec = [f_1(x_vec) ...
 
 Next, push the "Parameters" button and edit parameters, or edit the code for parameters in "./save/param_setting.m".
 
+````
+%% parameter for NSGA-2
+
+%----------------------- 解析パラメータ ------------------------------------
+GENERATION = 200; %% GENERATION[-]
+TOURNAMENT_RATE = 0.5; %% TOURNAMENT_RATE[-]
+CROSSOVER_RATE = 1.0; %% CROSSOVER_RATE[-]
+MUTATION_RATE = 0.4; %% 突然変異個体選択率[-]
+MUTATION_RATE_1 = 0.8; %% 突然変異率[-]
+
+%----------------------- 個体パラメータ ------------------------------------
+MAX_POP_NUM = 500; %% the number of Populations[-]
+POP_LGT = 3; %% Length of variable[-]
+% Initial value of populations [-]
+pop_weight = 0.1*ones(1,POP_LGT); 
+% Mutation change width
+pop_mutation_width = 10*pop_weight;
+````
+
 __[Step 3] Start optimization__
 
 Push the “exe” button or execute the code in "./cores/exe.m", and wait until the finish of the analysis.
