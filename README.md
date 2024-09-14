@@ -224,6 +224,27 @@ $$
 ![GXatie2bwAQvkk0](https://github.com/user-attachments/assets/5fb7714f-f632-41bd-a15e-70a70f8a1bc9)
 
 
+
+__DTLZ7__ bench problem [^6]
+
+$$
+\min_{x \in \mathbb{R}^N} f_1, f_2, f_3, 
+$$
+
+where, $x_i := 2^{-1} \left(\frac{2}{\pi} \tan^{-1}{ x^*_i} + 1\right), i \in \\{1, \ldots, N \\}, N=20$ and,
+
+$$ 
+\left.
+\begin{eqnarray}
+&& f_1(x_i) = x_1 \\
+&& f_2(x_i) = x_2 \\
+&& f_3(x_i) = (1 + g(x_i)) h( f_1(x_i), f_2(x_i), g(x_i)) \\
+&& g(x_i) := 1 + \frac{9}{N-1} \sum_{k=2}^N x_k \\
+&& h(f_1, g) := 1 - \sqrt{ \frac{f_1}{g} } - \frac{f_1}{g} \sin{ 10 \pi f_1 } \\
+\end{eqnarray}
+\right).
+$$
+
 ### References
 [^1]: K. Deb, A. Pratap, S. Agarwal, T. Meyarivan, A fast and elitist multiobjective genetic algorithm: NSGA-II, IEEE Transactions on Evolutionary Computation 6 (2) (2002) 182–197. doi:10.1109/4235.996017.
 
@@ -235,3 +256,5 @@ $$
 https://doi.org/10.1109/TMECH.2018.2836352
 
 [^5]: Zitzler, E., Thiele, L., Laumanns, M., Fonseca, C., and Fonseca, da V., Performance assessment of multiobjective optimizers: an analysis and review, IEEE Transactions on Evolutionary Computation, Vol. 7, No. 2, pp. 117–132 (2003).
+
+[^6]: K. Deb et al, Scalable Test Problems for Evolutionary Multi-Objective Optimization, TIK-Technical Report No. 112, 2001.
