@@ -122,7 +122,7 @@ $$
 \min_{x \in \mathbb{R}^2} f_1, f_2, 
 $$
 
-where, $x_i := \frac{ 2/\pi \tan^{-1}{ x^*_i} - 1}{2}$ and
+where, $x_i := 2^{-1} (\frac{2}{\pi} \tan^{-1}{ x^*_i} - 1)$ and
 
 $$ 
 \left.
