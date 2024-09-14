@@ -135,7 +135,7 @@ $$
 \right).
 $$
 
-The red solid line shows the analytical solution of the Pareto front for the ZDT3 problem,
+The red solid line includes the analytical solution of the Pareto front for the ZDT3 problem,
 
 $$ 
 \left.
