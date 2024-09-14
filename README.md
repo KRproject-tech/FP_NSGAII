@@ -140,7 +140,7 @@ The red solid line shows the analytical solution of the Pareto front for the ZDT
 $$ 
 \left.
 \begin{eqnarray}
-&& x_i = 0, \ i \in \left\{2, \ldots, N\right\} \\
+&& x_i = 0,  i \in \left\{2, \ldots, N \right\} \\
 && x_1 \in [0, 1] \\
 \end{eqnarray}
 \right).
