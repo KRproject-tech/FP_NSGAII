@@ -22,6 +22,8 @@
 
 __Multi-objective optimization analysis by Non-dominated Sorting Genetic Algorithm (NSGA-II) [^1] with Floating Point representation [^2][^4] (MATLAB R2007b - ).__
 
+__This code is validated with MATLAB R2007b or later versions. However, the PlatEMO library (https://github.com/BIMK/PlatEMO), which can operate MATLAB 2018a or later versions, is more convenient and performs faster.__
+
     
 ## Directory
 <pre>
